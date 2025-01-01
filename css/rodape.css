@@ -1,0 +1,58 @@
+hr {
+  margin: 0;
+}
+
+.rodape {
+  background-color: var(--branco);
+  padding: 1em;
+  text-align: center;
+}
+
+.lista-rodape {
+  display: none;
+}
+
+/* Responsivo Tablet */
+@media screen and (min-width: 1024px) {
+  .rodape {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .rodape__titulo {
+    font-size: 1.25rem;
+  }
+
+  .lista-rodape {
+    display: block;
+  }
+  .lista-rodape__titulo {
+    color: var(--preto);
+    text-transform: uppercase;
+    font-size: 0.875rem;
+  }
+
+  .lista-rodape__item {
+    display: flex;
+    align-items: center;
+    margin: 0.6em 0;
+  }
+
+  .lista-rodape__link {
+    color: var(--preto);
+    text-decoration: none;
+    margin-left: 0.6em;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+
+  .rodape {
+    padding: 2em; 
+  }
+  .lista-rodape {
+    border-left: 1px solid var(--preto);
+    padding-left: 1em;
+  }
+}
