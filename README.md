@@ -6,12 +6,13 @@ O Alura Books é um projeto realizado no curso HTML e CSS: responsividade com mo
 
 ## ✔️ Técnicas e tecnologias utilizadas
 
-- `HTML`: O HTML tem um papel fundamental para a aplicação funcionar corretamente com a inserção dos elementos `<audio>` que irão prover para o JavaScript os controles de reprodução da mídia carregada. O HTML já virá pronto nos arquivos iniciais do curso;
-- `CSS`: O CSS tem papel fundamental para indicar a interação do usuário com a interface gráfica, portanto indica quando os botões são pressionados por mouse ou teclado. O CSS já virá pronto nos arquivos iniciais do curso;
+- `HTML`
+- `CSS`
+- `Swiper JS`
 
 ## 📁 Acesso ao projeto
 
-[Veja o projeto final do curso em funcionamento]().
+[Veja o projeto final do curso em funcionamento](https://henriquemldev.github.io/alurabooks/).
 
 Neste repositório você tem acesso a todo o material produzido no curso.
 
